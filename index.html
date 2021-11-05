@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="assets/css/style.css">
+</head>
+<body>
+    <div class="container">
+        <h1>PSEUDO-ELEMENT EXAMPLES</h1>
+        <h2>EXAMPLE 1 (::AFTER)</h2>
+        <p><a class="arrow" href="https://www.google.com">THIS IS A LINK WITH AN ARROW!</a></p>
+        <h2>EXAMPLE 2 (::BEFORE, ::AFTER)</h2>
+        <p><a  class="hexagon" href="https://www.google.com">THIS IS A LINK WITH AN ARROW AND A HEXAGON!</a></p>
+        <h2>EXAMPLE 3 (::AFTER)</h2>
+        <p><a class="print" href="https://www.google.com">THIS IS A PRINT STYLES LINK!</a></p>
+    </div>
+    <div>
+        <h2>LINK PSEUDO-CLASSES</h1>
+        <p><a target="_blank" class="visited" href="https://github.com/">:visited pseudo-class</a></p>
+        <p><a target="_blank" href="https://github.com/">:link pseudo-class</a></p>
+        </div>
+           
+        <div><h2>USER ACTION PSEUDO-CLASSES</h2>
+        <p class="hover">HOVER pseudo-class</p>
+        <p><a target="_blank" class="active" href="https://github.com/" >:active pseudo-class</a></p>
+        <p><a target="_blank" class="focuse" href="https://github.com/">:focus pseudo-class</a></p>
+        </div>
+        
+        <div><h2>USER INTERFACE STATE PSEUDO-CLASSES</h2>
+        <p>First Name: <input type="text" name="first_name" placeholder="Malcolm" />
+    Last Name: <input type="text" name="last_name" placeholder="Reynolds" disabled />
+     I own a Firefly-class transport ship <input type="checkbox" name="vehicle" value="Firefly-class" checked> </p> </div>
+        <div><h2>STRUCTURAL AND POSITION PSEUDO-CLASSES</h2>
+     <p class="child">:first-child :last-child and :only-child</p>
+     <ul>
+         <li>This list item is selected by :first-child</li>
+         <li>This list item is not selected</li>
+         <li><a href="*">THIS LISTED LINK IS SELECTED BY :ONLY-CHILD</a></li>
+         <li>This list item is selected by :last-child</li>
+     </ul></div>
+
+    </div>
+  
+    <article>
+      <h3>:first-of-type :last-of-type and :only-of-type</h3>
+      <p>This paragraph is selected by :first-of-type</p>
+      <p>This paragraph will not be selected</p>
+      <span>This span is selected by :only-of-type</span>
+      <p>This paragraph is selected by :last-of-type</p></article>
+     
+      <article>
+          <h3>:nth-child(n) and :nth-last-child(n)</h3>
+          <h4>First line of text</h4>
+          <h4>Second line of text</h4>
+          <h4>Third line of text</h4>
+          <h4>Fourth line of text</h4>
+          <h4>Fifth line of text</h4>
+          <h4>Sixth line of text</h4>
+      </article>
+
+      <article>
+        <h3>:nth-of-type(n) and :nth-last-of-type(n)</h3>
+        <h5>First line of text</h5>
+        <h5>Second line of text</h5>
+        <h5>Third line of text</h5>
+        <h5>Fourth line of text</h5>
+        <h5>Fifth line of text</h5>
+        <h5>Sixth line of text</h5>
+      </article>
+      <div>
+          <h2>NEGATION PSEUDO-CLASS</h2>
+          <h6 class="bold">This is some bold text</h6>
+    <h6 class="bold">This is some more bold text</h6>
+    <h6>This is selected with :not(.bold) and is not bold</h6>
+      </div>
+    
+</body>
+</html>
